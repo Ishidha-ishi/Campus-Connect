@@ -5,10 +5,11 @@ int main(){
     for(i=0;i<n;i++,printf("\n"))
     {
         for(j=0;j<n;j++){
-            if(i == 0 || i == n-1 || j == 0 || j == n-1)
-            printf("*");
+            if(i==j || j==0 || j==n-1)
+                printf("*");
             else
-            printf("&");
+                printf(" ");
+            
         }
     }
 }
