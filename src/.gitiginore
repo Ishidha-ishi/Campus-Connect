@@ -3,3 +3,6 @@
 *.out
 *.out
 *.obj
+bin/
+out/
+target/
